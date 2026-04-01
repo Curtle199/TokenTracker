@@ -39,33 +39,3 @@ The addon reads the generated data file and displays:
 This creates a simple pipeline:
 
 `External Data Source -> Python Fetcher -> Lua Data File -> WoW Addon UI`
-
-## Repository Structure
-
-```text
-TokenTracker/
-│
-├── README.md
-├── LICENSE
-├── .gitignore
-│
-├── addon/
-│   └── TokenTracker/
-│       ├── TokenTracker.toc
-│       ├── TokenTracker.lua
-│       └── TokenTrackerExternal.lua.example
-│
-├── scripts/
-│   ├── token_fetcher.py
-│   └── requirements.txt
-│
-├── docs/
-│   ├── setup-guide.md
-│   ├── architecture.md
-│   └── screenshots/
-│
-├── config/
-│   └── task-scheduler-example.txt
-│
-└── examples/
-    └── sample-TokenTrackerExternal.lua
