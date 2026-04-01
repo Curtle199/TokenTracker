@@ -1,0 +1,9 @@
+## Interface: 120001
+## Title: Token Tracker
+## Notes: WoW Token tracker with imported data and graph
+## Author: You
+## Version: 1.2
+## SavedVariables: TokenTrackerDB
+
+TokenTrackerExternal.lua
+TokenTracker.lua
