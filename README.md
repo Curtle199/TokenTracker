@@ -39,3 +39,20 @@ The addon reads the generated data file and displays:
 This creates a simple pipeline:
 
 `External Data Source -> Python Fetcher -> Lua Data File -> WoW Addon UI`
+## Why This Project Matters
+
+This project demonstrates the ability to design and implement a complete data-driven system, including:
+
+- automated data ingestion
+- cross-language integration (Python → Lua)
+- background task scheduling
+- real-time UI updates
+- decision-support logic
+
+Although built within a game environment, the architecture mirrors real-world monitoring dashboards and analytics tools.
+## Tech Stack
+
+- Python (data ingestion)
+- Lua (UI and logic layer)
+- Windows Task Scheduler (automation)
+- External data source (token pricing)
